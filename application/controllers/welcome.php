@@ -46,6 +46,17 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('welcome_message');
 	}
+
+    function encrypt()
+    {
+        $str = $this->input->get('a');
+        echo base64_encode($str*5+1);
+    }
+    function decrypt()
+    {
+        $str = $this->input->get('a');
+        echo (base64_decode($str)-1)/5;
+    }
 }
 
 /* End of file welcome.php */

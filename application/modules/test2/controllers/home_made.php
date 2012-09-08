@@ -1,14 +1,8 @@
 <?php  if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-class Test2_Home_Made_module extends CI_Module
+class Test2_home_made_module extends CI_Module
 {
 
-	/**
-	 * 构造函数
-	 *
-	 * @return void
-	 * @author
-	 **/
 	function __construct()
 	{
 		parent::__construct();

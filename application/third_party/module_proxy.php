@@ -7,7 +7,7 @@
  *
  */
 
-class Module_proxy extends CI_Controller 
+class Module_proxy extends CI_Controller
 {
 
 	function _remap($method)

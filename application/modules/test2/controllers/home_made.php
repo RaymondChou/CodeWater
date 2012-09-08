@@ -11,7 +11,7 @@ class Test2_home_made_module extends CI_Module
 	function index()
 	{
 		// 这是装载本模块的模型，如果在本模块下找不到，则自动装载全局模型
-		$this->load->model('Main_data_model');
+		$this->load->model('Main_data_model',TRUE);
 		$this->Main_data_model->start();
 
 		//$this->load->library('session');

@@ -5,3 +5,7 @@
 */cache/!index.html
 .idea/*
 .DS_Store
+.settings
+.buildpath
+.project
+nbproject

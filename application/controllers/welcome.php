@@ -50,7 +50,7 @@ class Welcome extends CI_Controller {
     public function test()
     {
         // 直接在控制器里使用 Module
-        echo $this->load->module('test2/home_made',NULL,TRUE);
+        echo $this->load->module('test2/home_made',array(),TRUE);
     }
 
     function encrypt()

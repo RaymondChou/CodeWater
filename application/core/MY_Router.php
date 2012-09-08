@@ -22,11 +22,12 @@
  *
  * @package		CodeIgniter
  * @subpackage	Libraries
- * @author		Hex
- * @category	HMVC
  * @link		http://codeigniter.org.cn/forums/thread-1319-1-2.html
  */
+
+//为3.0增加支持
 define('EXT','.php');
+
 class MY_Router extends CI_Router
 {
 	/**

@@ -47,6 +47,12 @@ class Welcome extends CI_Controller {
 		$this->load->view('welcome_message');
 	}
 
+    public function test()
+    {
+        // 直接在控制器里使用 Module
+        $this->load->module('test2/home_made');
+    }
+
     function encrypt()
     {
         $str = $this->input->get('a');

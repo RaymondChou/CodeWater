@@ -5,14 +5,10 @@
  *
  * 用于转发 Module 的请求
  *
- * @package		CodeIgniter
- * @subpackage	Libraries
- * @author		Hex
- * @category	HMVC
- * @link		http://codeigniter.org.cn/forums/thread-1319-1-2.html
  */
 
-class Module_proxy extends CI_Controller {
+class Module_proxy extends CI_Controller 
+{
 
 	function _remap($method)
 	{

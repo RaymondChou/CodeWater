@@ -1,6 +1,7 @@
 <?php  if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-class Test2_Home_Made_module extends CI_Module {
+class Test2_Home_Made_module extends CI_Module
+{
 
 	/**
 	 * 构造函数

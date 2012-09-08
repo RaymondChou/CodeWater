@@ -6,9 +6,6 @@
  *
  * @package		CodeIgniter
  * @subpackage	Libraries
- * @author		Hex
- * @category	HMVC
- * @link		http://codeigniter.org.cn/forums/thread-1319-1-2.html
  */
 class CI_Module {
 
